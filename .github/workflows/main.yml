@@ -21,13 +21,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verify PRSA files exist
-        run: |
-          test -f prsa.py
-          test -f RULES.md
+      - name: Verify PRSA file exists
+        run: test -f psra.py
 
       - name: Check Python syntax
-        run: python -m py_compile prsa.py
+        run: python -m py_compile psra.py
 
       - name: Run PRSA
-        run: python prsa.py
+        run: python psra.py
