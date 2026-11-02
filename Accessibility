@@ -1,0 +1,206 @@
+# Accessibility
+
+<!--
+Include a brief statement describing why accessibility matters to your
+project, who should be able to use and contribute to it, and what this
+document covers, such as your accessibility commitments, contributor
+expectations, and issue-reporting process.
+
+Write for people who may read this after encountering a barrier. Use plain
+language and describe user experiences rather than relying on legal
+language, technical jargon, or standards codes.
+-->
+
+## Priorities
+
+<!--
+Describe the outcomes the project prioritizes and how it works toward them.Accessibility Policy
+
+Scope and purpose
+
+Accessibility is a fundamental consideration across our software, research, experimental systems, documentation, and open-source development.
+
+Our repositories aim to make technology, research findings, and participation accessible to people with different abilities, devices, levels of technical experience, and ways of interacting with information.
+
+Accessibility is not limited to visual design. It includes the ability to understand information, navigate systems, operate interfaces, participate in research, identify errors, and make informed decisions without unnecessary barriers.
+
+This policy applies across projects maintained under this organization or by its maintainers, including software, prototypes, research tools, documentation, and associated development resources.
+
+It establishes our accessibility priorities, contributor expectations, reporting procedures, and maintenance responsibilities.
+
+Priorities
+
+We prioritize the following accessibility outcomes:
+
+1. Understandable information
+
+- Use clear language and meaningful headings.
+- Explain technical terminology where necessary.
+- Distinguish instructions, warnings, assumptions, and limitations.
+- Avoid relying exclusively on colour, symbols, or visual presentation to communicate meaning.
+- Make research findings and technical documentation understandable to their intended audiences.
+
+2. Accessible interaction
+
+- Where applicable, support keyboard navigation and alternative input methods.
+- Provide meaningful labels for interactive elements.
+- Maintain logical navigation and focus order.
+- Avoid unnecessary time limits and interaction requirements.
+- Provide understandable error messages and recovery instructions.
+
+3. Cognitive accessibility
+
+- Use predictable layouts and consistent terminology.
+- Break complex processes into manageable steps.
+- Avoid unnecessary information overload.
+- Make important decisions, consequences, and system limitations explicit.
+- Support users who benefit from additional processing time or alternative information formats.
+
+4. Assistive technology
+
+Where applicable, consider compatibility with:
+
+- Screen readers.
+- Screen magnification.
+- Speech recognition.
+- Keyboard-only navigation.
+- Alternative input devices.
+- Browser accessibility features.
+
+5. Inclusive research and development
+
+Accessibility considerations should be incorporated into project design, testing, documentation, and evaluation.
+
+Where a project examines AI behaviour, decision-making, communication, or human interaction, accessibility must also be considered in how users understand, interpret, and respond to system outputs.
+
+WCAG 2.2 Level AA may be used as an aspirational reference point where applicable. This is not a declaration of verified conformance.
+
+Contributor expectations
+
+Contributors are expected to consider accessibility when introducing or modifying user-facing functionality, documentation, or research interfaces.
+
+Contributions should, where applicable:
+
+- Preserve existing accessibility features.
+- Use semantic interface elements and meaningful labels.
+- Include alternative text for informative images.
+- Provide captions or transcripts for relevant audio and video.
+- Avoid conveying information through colour alone.
+- Maintain readable text and sufficient contrast.
+- Consider keyboard and assistive technology access.
+- Document known accessibility limitations.
+- Include relevant testing evidence with significant user-facing changes.
+
+Automated accessibility checks may be introduced where appropriate, but automated results must not be treated as proof of complete accessibility.
+
+Manual evaluation and user feedback remain important.
+
+Contributors must not claim accessibility compliance without evidence supporting the claim.
+
+Reporting accessibility issues
+
+Accessibility barriers may be reported through the Issues section of the relevant GitHub repository.
+
+Reports may include:
+
+- The repository and affected feature.
+- The task the user was attempting to complete.
+- The URL or relevant file location.
+- What happened and what was expected.
+- Browser and operating system, if known.
+- Assistive technology or alternative input method, if relevant.
+
+Screenshots and recordings are optional.
+
+Reporters are not required to disclose a disability, diagnosis, or other personal information.
+
+If GitHub itself presents an accessibility barrier, users may contact the repository maintainer through an alternative published contact method where available.
+
+Severity
+
+Accessibility issues may be categorized according to their practical impact.
+
+Critical
+
+A significant barrier prevents a person from accessing essential functionality, completing an important task, or obtaining essential information, with no reasonable workaround.
+
+High
+
+A major feature or important workflow is difficult or impossible to use for some users, although an alternative route may exist.
+
+Moderate
+
+A barrier causes additional effort, confusion, or reduced functionality, but the affected task remains achievable.
+
+Low
+
+A minor accessibility improvement involving presentation, clarity, consistency, or convenience.
+
+Maintainers may assign or revise severity during review. Reporters do not need to determine severity themselves.
+
+How we respond
+
+Accessibility reports will be reviewed according to their impact, available resources, and project activity.
+
+Our response process aims to:
+
+1. Acknowledge the report when practicable.
+2. Review the reported barrier and attempt to reproduce it.
+3. Determine the affected functionality and severity.
+4. Identify a workaround where possible.
+5. Document the issue and proposed resolution.
+6. Communicate significant changes to the reporter.
+7. Invite verification where practical after a fix is implemented.
+
+Response and resolution times are not guaranteed unless a particular repository publishes specific service targets.
+
+An issue being closed does not automatically establish that an accessibility barrier has been resolved in every environment.
+
+Ownership and maintenance
+
+The repository maintainer is responsible for overseeing accessibility considerations within each project.
+
+Responsibilities include:
+
+- Reviewing accessibility reports.
+- Considering accessibility during development and design decisions.
+- Maintaining relevant documentation.
+- Reviewing known limitations.
+- Evaluating accessibility implications of significant changes.
+- Ensuring that public accessibility claims reflect available evidence.
+
+Where projects have multiple maintainers, accessibility responsibilities may be delegated.
+
+When maintainership changes, outstanding accessibility issues and relevant documentation should be transferred with the project's other maintenance responsibilities.
+
+This policy should be reviewed periodically and updated as projects, technologies, and accessibility practices evolve.
+
+Supported environments
+
+Supported environments vary between repositories.
+
+A project must distinguish between:
+
+- Environments intended to be supported.
+- Environments that have actually been tested.
+- Environments that have only received partial testing.
+- Environments that have not been evaluated.
+
+Browser, operating system, device, input method, and assistive technology compatibility must not be assumed without appropriate evidence.
+
+Each repository should document its relevant testing scope where applicable.
+
+Passing an automated check or testing one device does not establish compatibility across all environments.
+
+Known limitations
+
+Accessibility limitations may differ between repositories and project versions.
+
+Known barriers should be documented in the relevant repository, including:
+
+- The affected feature or workflow.
+- The nature of the barrier.
+- The environments in which it was observed.
+- Available workarounds.
+- Any related issue or proposed improvement.
+
